@@ -765,12 +765,12 @@ public class practica {
        a= 59.90f;
        b= 99.90f;
        c= 149.90f;
-       d=(a+b+c)*IVA;
+       d=(a+b+c)+IVA;
       
        System.out.println(a);
        System.out.println(b);
        System.out.println(c);
-       System.out.println(d);//6503.7
+       System.out.println(d);
 
     }
 };
